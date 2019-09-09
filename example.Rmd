@@ -1,5 +1,5 @@
 ---
-title: "This is the title"
+title: "这是标题"
 layout: page
 ---
 
@@ -8,9 +8,9 @@ library(knitr)
 opts_chunk$set(fig.path=paste0("figure/", sub("(.*).Rmd","\\1",basename(knitr:::knit_concord$get('infile'))), "-"))
 ```
 
-# First section
+# 第一部分
 
-An introduction
+前言
 
 <!-- this is a comment -->
 
@@ -19,7 +19,7 @@ An introduction
 
 # Random normals
 
-Here are 10 random normals:
+生成10个服从正态分布的随机数：
 
 ```{r}
 rnorm(10)
